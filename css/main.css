@@ -1,0 +1,40 @@
+
+.container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
+    margin-right: 0;
+    margin-left: 20px;
+  }
+.container{
+  margin: 0;
+  padding:0;
+}
+.img-circle{
+  padding-left:10px;
+  height: 50px;
+}
+.navbar-header{
+
+
+ height:120px;
+ width: 120px;
+padding-left: 20px;
+opacity: 1;
+
+transition: 1s opacity;
+border-bottom-left-radius: 8px;
+border-bottom-right-radius: 8px;
+  background: white;
+}
+
+section{
+  width: 100vw;
+  height: 100vw;
+}
+#name{
+
+  font-family: 'Lobster', cursive;
+}
+a{
+  font-family: 'Vollkorn SC', serif;
+  color: rgba(153, 153, 153,1);;
+  font-size: 16px;
+}
