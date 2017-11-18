@@ -53,13 +53,17 @@
 
 .heading{
   background: rgba(199,200,194,1);
-
-  padding: 5px;
+ background-repeat: no-repeat;
+   font-size: 26px;
   display: block;
+  background-size: cover;
   -webkit-margin-before: 1em;
   -webkit-margin-after: 1em;
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
+  background-repeat: no-repeat;
+   padding:15px;
+   background-origin: content-box;
 
 }
 h2,h1,h4{
@@ -94,7 +98,7 @@ h4{
 }
  blockquote{
    font-family: 'Pacifico', cursive;
-   
+
    color:#9F1322;
  }
 .navbar-custom{
