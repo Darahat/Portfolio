@@ -1,0 +1,65 @@
+.well{
+  box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2), 6px 6px 20px 6px rgba(0, 0, 0, 0.19);
+
+text-align: center;
+  background-color:#9F1322;
+  background-image: radial-gradient(
+      red, #9F1322
+    );
+
+
+       min-height: 40vw;
+      margin-bottom: 0px;
+       padding-top: 80px;
+
+
+       background-color:none;
+       border:none;
+       border-radius: 1px;
+
+}
+.overview{
+  margin-top: 20px;
+  min-width: 150px;
+}
+.btn-transparent {
+    background: transparent;
+    color: #F2F2F2;
+    -webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
+    -moz-transition: background .2s ease-in-out, border .2s ease-in-out;
+    -o-transition: background .2s ease-in-out, border .2s ease-in-out;
+    transition: background .2s ease-in-out, border .2s ease-in-out;
+    border: 1px solid white;
+}
+
+    .btn-transparent:hover {
+        color: white;
+        background-color: rgba(255,255,255,0.2);
+    }
+.texts{
+  text-align: center;
+
+  box-sizing: border-box;
+  color: rgb(67, 67, 67);
+
+
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+
+  font-size: 16px;
+  min-height: 276px;
+  line-height: 22px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  text-align: center;
+
+  min-width: 150px;
+  /*overflow: auto;*/
+
+
+}
