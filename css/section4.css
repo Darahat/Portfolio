@@ -1,5 +1,5 @@
 .row{
-  margin-top: 100px;
+  margin-top: 200px;
 }
 .panel-heading {
     -webkit-touch-callout: none;
@@ -39,7 +39,7 @@
 
 ----------------------------------*/
 #project{
-  min-height: 45vw;
+  min-height: 35vw;
 
 
 
@@ -66,6 +66,11 @@
   @media (max-width:320px){
     font-size: 5px;
   }
+  @media (min-width: 992px)
+
+.col-md-4 {
+    width: 33.33333333%;
+}
 
 }
 .md-macbook-pro .md-lid {
