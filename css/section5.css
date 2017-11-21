@@ -1,1 +1,9 @@
 
+#contact{
+  min-height: 30vw;
+  background-color:#1111;
+  position: relative;
+}
+.row-fluid{
+  top-margin:50px;
+}

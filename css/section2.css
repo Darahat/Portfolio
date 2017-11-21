@@ -2,6 +2,7 @@
 #skills{
 min-height: 100vw;
 color:white;
+position: relative;
  background-color: rgba(255, 255, 255,1);
 }
 .well{
@@ -28,7 +29,7 @@ text-align: center;
   margin-top: 20px;
   min-width: 150px;
 }
-.btn-transparent {
+/*.btn-transparent {
     background: transparent;
     color: #F2F2F2;
     -webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
@@ -41,7 +42,7 @@ text-align: center;
     .btn-transparent:hover {
         color: white;
         background-color: rgba(255,255,255,0.2);
-    }
+    }*/
 .texts{
 
   text-align: center;
@@ -50,4 +51,49 @@ text-align: center;
   /*overflow: auto;*/
 
 
+}
+.btn-rect {
+    color: #c52032;
+    border-radius: 0;
+    padding: 5px 30px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 4px solid #D4D4D4;
+}
+
+
+.btn-rect, body {
+    background-color: #fff;
+}
+
+.btn-rect, .cd-nav-trigger, .navbar-custom .navbar-brand img {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .19), 0 6px 6px rgba(0, 0, 0, .23);
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.btn, .btn-danger.active, .btn-danger:active, .btn-default.active, .btn-default:active, .btn-info.active, .btn-info:active, .btn-primary.active, .btn-primary:active, .btn-warning.active, .btn-warning:active, .btn.active, .btn:active, .dropdown-menu>.disabled>a:focus, .dropdown-menu>.disabled>a:hover, .form-control, .navbar-toggle, .open>.btn-danger.dropdown-toggle, .open>.btn-default.dropdown-toggle, .open>.btn-info.dropdown-toggle, .open>.btn-primary.dropdown-toggle, .open>.btn-warning.dropdown-toggle {
+    background-image: none;
+}
+
+.btn, .btn-group, .btn-group-vertical, .caret, .checkbox-inline, .radio-inline, img {
+    vertical-align: middle;
 }

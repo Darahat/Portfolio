@@ -9,25 +9,22 @@
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Vollkorn+SC:400" rel="stylesheet">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-      <link rel="stylesheet" href="css/main.css">
+
+      <!-- animsition.css -->
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/css/animsition.min.css" />
+
       <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
     	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
       <link rel="stylesheet" href="css/section1.css"> <!-- Resource style -->
       <link rel="stylesheet" href="css/section2.css"> <!-- Resource style -->
       <link rel="stylesheet" href="css/section3.css"> <!-- Resource style -->
       <link rel="stylesheet" href="css/section4.css"> <!-- Resource style -->
-
+  <link rel="stylesheet" href="css/main.css">
 
 
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-      <script src="js/section1.js"></script> <!-- Modernizr -->
-
-      <script src="js/section2.js"></script>
-      <script src="js/section3.js"></script> <!-- Modernizr -->
-
-      <script src="js/section4.js"></script>
+          <script src="js/main.js"></script> <!-- Resource jQuery -->
   <!-- <script src="bootstrap-4.0.0-beta-dist\js\jquery.js"/>
       <script src="bootstrap-4.0.0-beta-dist\js\bootstrap.min.js"/> -->
     </head>
@@ -55,7 +52,7 @@
 </div>
 
 
-<section id="home" class="row" style=" min-height:75vw">
+<section id="home"   style=" min-height:75vw">
     <div id="carousel1" class="carousel slide" data-ride="carousel"  >
 
 
@@ -137,6 +134,7 @@
 
 
      <h1>Personal Summary</h1>
+
      <h4> A passionate ,self learner and mostly hard worker.Aim to work in a challenging work environment
 where can utilize expertise in technical skills, towards the development and implementation of
 the new ideas, contributing to growth of the organization.</h4>
@@ -144,36 +142,37 @@ the new ideas, contributing to growth of the organization.</h4>
   Hands on experience in MVC, Hibernate, Spring Framework.Copulative, flexible and interested to work with team.</h4>
 </div>
 </section  >
-   <section id="skills">
-       <div class="well col-md-4 " >
+   <section id="skills ">
+       <div class="animsition well col-md-4 "  data-animsition-overlay="true"  >
              <h2><b>Engineering</b></h2>
-             <button type="button" class="overview btn button-danger btn-transparent btn-transparent" name="button">Overview</button>
+             <button type="button" class="overview  btn btn-rect  animsition-link" data-animsition-out-class="rotate-out"
+  data-animsition-out-duration="500" name="button">Overview</button>
        </div>
        <div class="well col-md-4 " >
 
                <h2><b>Language</b></h2>
-               <button type="button" class="overview btn button-danger btn-transparent btn-transparent" name="button">Overview</button>
+               <button type="button" class="overview btn btn-rect animsition-link" name="button">Overview</button>
          </div>
 
        <div class="well col-md-4 " >
 
                <h2><b>Framework/Technologies</b></h2>
-               <button type="button" class="overview btn button-danger btn-transparent btn-transparent" name="button">Overview</button>
+               <button type="button" class="overview overview btn btn-rect animsition-link" name="button">Overview</button>
          </div>
          <div class="well col-md-4 " >
 
                  <h2><b>Development Environment</b></h2>
-                 <button type="button" class="overview btn button-danger btn-transparent btn-transparent" name="button">Overview</button>
+                 <button type="button" class="overview overview btn btn-rect animsition-link" name="button">Overview</button>
            </div>
            <div class="well col-md-4 " >
 
                    <h2><b>Java</b></h2>
-                   <button type="button" class="overview btn button-danger btn-transparent btn-transparent" name="button">Overview</button>
+                   <button type="button" class="overview btn btn-rect animsition-link " name="button">Overview</button>
              </div>
               <div class="well col-md-4 " >
 
                               <h2><b>Java</b></h2>
-                              <button type="button" class="overview btn button-danger btn-transparent btn-transparent" name="button">Overview</button>
+                              <button type="button" class="overview btn btn-rect animsition-link" name="button">Overview</button>
                         </div>
 
                         <div class="texts">
@@ -444,12 +443,12 @@ the new ideas, contributing to growth of the organization.</h4>
 
 
 
-   <section id="contact" class="row" style="height: 30vw;background-color:#1111;">
+   <section id="contact" class="row" style="min-height: 30vw;background-color:#1111;">
      <div class="row-fluid">
        <div class="span8 col-md-8">
          <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d14606.932781323796!2d90.3701279!3d23.7568919!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1511249768496"></iframe>
      </div>
-      
+
 
        <div class="span4" class="col-md-4">
        <h2>Contact</h2>
@@ -468,8 +467,16 @@ the new ideas, contributing to growth of the organization.</h4>
    </section>
 
   </div>
-  <script src="js/jquery-2.1.1.js"></script>
-  <script src="js/main.js"></script> <!-- Resource jQuery -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <script src="js/section1.js"></script> <!-- Modernizr -->
+
+  <script src="js/section2.js"></script>
+  <script src="js/section3.js"></script> <!-- Modernizr -->
+
+  <script src="js/section4.js"></script>
 
 
     </body>
