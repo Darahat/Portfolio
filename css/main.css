@@ -28,7 +28,9 @@
     -webkit-transition: 1s opacity;
     transition: 1s opacity;
 }
+#cd-main-nav{
 
+}
 
 .navbar-brand {
     float: left;
