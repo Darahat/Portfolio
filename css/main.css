@@ -63,9 +63,10 @@ h2,h4{
 
 }
   h3 {
+    font-family: 'Anton', sans-serif;
     margin-top: 0px;
     margin-bottom: 0px;
-    padding: 0;
+    padding-bottom: 20px;
 }
 
 h1{
