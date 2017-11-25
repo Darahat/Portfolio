@@ -1,4 +1,8 @@
 
+#home{
+   min-height: 95vw;
+
+}
 .carousel-caption {
     position: absolute;
     right:0;

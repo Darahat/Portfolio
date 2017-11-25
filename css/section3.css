@@ -1,14 +1,14 @@
 
 
 #experience{
-  min-height: 43vw;
+  min-height: 50vw;
 
- background-color: rgba(246, 202, 26,1);"
+ background-color: rgba(54, 162, 235, 1)"
 position: relative;
 }
 .panel{
 
-  margin: 130px;
+  margin-top: 150px;
     box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2), 6px 6px 20px 6px rgba(0, 0, 0, 0.19);
 }
 .panel-default{

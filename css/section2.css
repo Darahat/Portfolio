@@ -1,6 +1,6 @@
 
 #skills{
-min-height: 110vw;
+min-height: 100vw;
 color:white;
 position: relative;
  background-color: rgba(255, 255, 255,1);
@@ -51,7 +51,7 @@ text-align: center;
 .texts{
 
   text-align: center;
-  margin-top: 30px;
+  margin-top: 80px;
 
   /*overflow: auto;*/
 

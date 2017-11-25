@@ -1,6 +1,4 @@
-.row{
-  margin-top: 200px;
-}
+
 .panel-heading {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -30,7 +28,7 @@
     }
     .panel-title {
         font-weight: 400;
-        color: $white;
+        color: white;
     }
 
 /*----------------------------------
@@ -39,8 +37,9 @@
 
 ----------------------------------*/
 #project{
-  min-height: 35vw;
+  min-height: 40vw;
 position: relative;
+background-color:rgb(215, 246, 245)
 
 
 }

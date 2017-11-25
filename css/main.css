@@ -117,7 +117,7 @@ section{
   top: 0;
 
  /*height:100vw;*/
- width: 100vw;
+ min-width: 100vw;
  /*overflow: auto;*/
 
   /*height: 68.9vw;*/
