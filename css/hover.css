@@ -4218,7 +4218,7 @@
 /* CURLS */
 /* Curl Top Left */
 .hvr-curl-top-left {
-  display: inline-block;
+
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
@@ -4236,6 +4236,7 @@
   background: white;
   /* IE9 */
   background: linear-gradient(135deg, white 45%, #aaa 50%, #ccc 56%, white 80%);
+
   filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffffff', endColorstr='#000000');
   /*For IE7-8-9*/
   z-index: 1000;
@@ -4246,8 +4247,8 @@
   transition-property: width, height;
 }
 .hvr-curl-top-left:hover:before, .hvr-curl-top-left:focus:before, .hvr-curl-top-left:active:before {
-  width: 455px;
-  height: 455px;
+  width: 55px;
+  height: 55px;
 }
 
 /* Curl Top Right */
