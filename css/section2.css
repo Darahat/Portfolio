@@ -3,7 +3,12 @@
   width: 100%;
   height: auto;
 }*/
-
+.modal-container {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 10px;
+    padding-left: 40px;
+}
 .overlay {
   position: absolute;
   bottom: 0;
@@ -41,7 +46,7 @@
 .text {
   white-space: nowrap;
   color: white;
-  font-size: 20px;
+  font-size: 12px;
   position: absolute;
   overflow: hidden;
 
@@ -165,10 +170,13 @@ dl {
   display: flex;
   background-color: white;
   flex-direction: column;
-  width: 100%;
+
   max-width: 700px;
   position: relative;
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom:20px;
+  margin-left: 40px;
+
 }
 
 dt {
@@ -180,27 +188,30 @@ dt {
   font-size: 1.2em;
   font-weight: 700;
   margin-bottom: 20px;
-  margin-left: 130px;
+ 
 }
 
 .text {
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-  height: 40px;
-  width: 130px;
-  background-color: white;
-  position: absolute;
-  left: 0;
-  justify-content: flex-end;
+    /* font-weight: 200; */
+    display: flex;
+    height: 40px;
+    max-width: 300px;
+    color: black;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    justify-content: flex-end;
+    margin-top: 30px;
 }
+
+
 
 .percentage {
   font-size: .8em;
   line-height: 1;
   text-transform: uppercase;
-  width: 100%;
-  height: 40px;
+
+  height: 30px;
   margin-left: 130px;
   background: repeating-linear-gradient(to right, #ddd, #ddd 1px, #fff 1px, #fff 5%);
 }
