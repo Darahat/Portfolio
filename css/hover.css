@@ -2553,7 +2553,7 @@
 
 /* Shadow Radial */
 .hvr-shadow-radial {
-  display: inline-block;
+ 
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
@@ -2568,7 +2568,7 @@
   width: 100%;
   box-sizing: border-box;
   background-repeat: no-repeat;
-  height: 5px;
+  height: 6px;
   opacity: 0;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;

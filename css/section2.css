@@ -18,7 +18,7 @@
       white, #9F8334
     );
   overflow: hidden;
-padding-top: 70px;
+ padding-top: 65px;
   height: 0;
   transition: .5s ease;
 }
@@ -66,8 +66,7 @@ padding-top: 70px;
 
 
 #skills{
-  max-height:160vw;
-min-height: 100vw;
+min-height: 90vw;
 color:white;
 position: relative;
  background-color: rgba(255, 255, 255,1);
@@ -86,8 +85,9 @@ text-align: center;
       white, 	#777777
     );
 
-      max-height: 80vw;
-       min-height: 35vw;
+
+       max-height: 300vw;
+       min-height:35vw;
       margin-bottom: 0px;
        padding-top: 10px;
 
