@@ -20,11 +20,11 @@
     }
     .panel-heading {
         border: none;
-        background-color: #eee;
+        background-color:black;
 
     }
     .panel-body {
-        background-color: #f5f5f5;
+        background-color:white;
     }
     .panel-title {
         font-weight: 400;
@@ -39,7 +39,7 @@
 #project{
   min-height: 40vw;
 position: relative;
-background-color:rgb(215, 246, 245)
+background-color:white;
 
 
 }
