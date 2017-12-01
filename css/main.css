@@ -67,6 +67,8 @@ h2,h4{
     margin-top: 0px;
     margin-bottom: 0px;
     padding-bottom: 20px;
+    color:#9F1322;
+
 }
 
 h1{
@@ -76,7 +78,7 @@ h1{
 }
 h2{
     font-family: 'Poiret One', cursive;
-    color: white;
+    color: #9F1322;
 
 }
 h4,h5{
