@@ -8,7 +8,7 @@
 
 .container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
     margin-right: 0;
-    margin-left:20px ;
+    margin-left:0px ;
   }
 .container{
   margin: 0;
@@ -17,11 +17,24 @@
 }
 .img-circle{
   padding-top: 10px;
-  padding-left:10px;
-  max-height:70px;
-  min-height:30px;
+  margin-left: 35px;
+  padding-left:0px;
+  max-width: 50px;
+  min-width: 10px;
+  max-height:50px;
+  min-height:10px;
 
 }
+/*.navbar-custom .navbar-brand {
+  max-width: 50px;
+  min-width: 10px;
+  max-height:70px;
+  min-height:10px;
+
+    opacity: 1;
+    -webkit-transition: 1s opacity;
+    transition: 1s opacity;
+}*/
 .navbar-custom .navbar-brand {
     height: auto;
     padding: 0;
@@ -29,17 +42,41 @@
     -webkit-transition: 1s opacity;
     transition: 1s opacity;
 }
+
+.navbar-header {
+    z-index: 1;
+    position: absolute;
+    max-height: 90px;
+    min-height: 10px;
+    max-width: 120px;
+    min-width: 10px;
+    padding-left: 0;
+    padding-top: 0;
+    background-color: white;
+    transition: 1s opacity;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
 #cd-main-nav{
 
 }
 
 .navbar-brand {
+
     float: left;
-     padding: 5px;
+    padding: 15px;
     font-size: 18px;
     line-height: 20px;
     height: 50px;
 }
+    /*float: left;
+     padding: 5px;
+    font-size: 18px;
+    line-height: 20px;
+    max-height: 50px;
+    min-height: 10px;
+    margin: 10px;
+}*/
 .cd-nav{
   display: none;
   position: absolute;
@@ -97,12 +134,13 @@ border: none;
 margin-bottom: 0;
 }
 
-.navbar-header{
+/*.navbar-header{
 z-index: 1;
 position: absolute;
-max-height: 150px
- min-height:150px;
- min-width: 20px;
+max-height: 90px;
+ min-height:10px;
+ max-width: 120px;
+ min-width: 10px;
 padding-left:0;
 padding-top: 0;
 
@@ -112,7 +150,7 @@ border-bottom-left-radius: 8px;
 border-bottom-right-radius: 8px;
 
 
-}
+}*/
 
 section{
   margin: 0;
