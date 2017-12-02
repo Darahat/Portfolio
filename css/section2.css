@@ -66,10 +66,12 @@
 
 
 #skills{
-min-height: 80vw;
+min-height: 60vw;
 color:white;
 position: relative;
  background-color: rgba(255, 255, 255,1);
+
+
 }
 .modal-body{
 padding-top:0px;
@@ -115,10 +117,11 @@ text-align: center;
         color: white;
         background-color: rgba(255,255,255,0.2);
     }*/
-.texts{
+.subsection{
 
   text-align: center;
   margin-top: 80px;
+  height: 50%;
 
   /*overflow: auto;*/
 

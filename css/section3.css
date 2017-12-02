@@ -2,9 +2,15 @@
 
 #experience{
   min-height: 50vw;
+  color:gray;
+   background-image: url("../img/background/2.jpg");
+   background-position: fixed;
+   background-repeat: no-repeat;
 
- background-color: rgba(54, 162, 235, 1)"
-position: relative;
+   background-attachment: fixed;
+   background-size: cover;
+
+ 
 }
 .panel{
 
