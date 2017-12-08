@@ -10,9 +10,9 @@
    background-attachment: fixed;
    background-size: cover;
 
- 
+
 }
-.panel{
+/*.panel{
 
   margin-top: 150px;
     box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2), 6px 6px 20px 6px rgba(0, 0, 0, 0.19);
@@ -23,13 +23,31 @@
     font-family: 'Raleway',sans-serif;
 
 
-}
-.panel-default > .panel-footer {
+}*/
+/*.panel-default > .panel-footer {
     color: #fff;
     background-color: #47c8ed;
     display:none;
     text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
-}
-.panel-default i{
+}*/
+/*.panel-default i{
     font-size: 5em;
+    }*/
+    .panel{
+    background-color: rgba(0,0,0,0);
+    /*margin-top:50px 40px 40px 20px ;*/
+
+    }
+    .panel > .panel-footer {
+
+        background-color: rgba(0,0,0,0);
+
+        display:none;
+        color:white;
+        font-size: 15px;
+        text-align: justify;
+        padding:20px 40px 20px 40px;
+        /*text-justify: distribute;*/
+
+  word-spacing:-2px;
     }

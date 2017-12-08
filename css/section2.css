@@ -66,7 +66,7 @@
 
 
 #skills{
-min-height: 60vw;
+min-height: 40vw;
 color:white;
 position: relative;
  background-color: rgba(255, 255, 255,1);
@@ -117,16 +117,7 @@ text-align: center;
         color: white;
         background-color: rgba(255,255,255,0.2);
     }*/
-.subsection{
 
-  text-align: center;
-  margin-top: 80px;
-  height: 50%;
-
-  /*overflow: auto;*/
-
-
-}
 .btn-rect {
     color: #c52032;
     border-radius: 0;

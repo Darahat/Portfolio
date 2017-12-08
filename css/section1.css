@@ -1,12 +1,30 @@
 
 #home{
-   min-height: 115vw;
-   background-image: url("../img/background/1.jpeg");
+   min-height: 20vw;
+   /*background-image: url("../img/background/1.jpeg");*/
    background-position: fixed;
    background-repeat: no-repeat;
-
+   background-color:rgba(0,0,0,.2);
    background-attachment: fixed;
    background-size: cover;
+
+
+}
+.subsection{
+  min-height: 30vw;
+  /*background-image: url("../img/background/1.jpeg");*/
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-color:rgba(0,0,0,.2);
+  background-attachment: fixed;
+  background-size: cover;
+   
+    text-align: center;
+    padding-top: 80px;
+    height: 50%;
+
+    /*overflow: auto;*/
+
 
 
 }
