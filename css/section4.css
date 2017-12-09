@@ -40,6 +40,8 @@
   min-height: 40vw;
 position: relative;
 background-color:white;
+max-width: 100%;
+ overflow: hidden;
 
 
 }

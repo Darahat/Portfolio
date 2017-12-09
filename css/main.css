@@ -1,14 +1,7 @@
 
 
-   body {
-      font-size: 2em;
-        height: 100%;
-        opacity: 1;
-        transition: 1s opacity;
-   }
-   html {
-    background-color: black;
-}
+
+
 
    .hideme {
 
@@ -95,6 +88,15 @@
      background: #fff;
 
 
+}
+h1 {
+  font-size: 5.9vw;
+}
+h2 {
+  font-size: 3.0vh;
+}
+p {
+  font-size: 2vmin;
 }
 h1{
   margin-top: 150px;

@@ -1,7 +1,7 @@
 
 
 #experience{
-  min-height: 50vw;
+  min-height: 40vw;
   color:gray;
    background-image: url("../img/background/2.jpg");
    background-position: fixed;
@@ -9,6 +9,8 @@
 
    background-attachment: fixed;
    background-size: cover;
+   max-width: 100%;
+    overflow: hidden;
 
 
 }
@@ -50,4 +52,14 @@
         /*text-justify: distribute;*/
 
   word-spacing:-2px;
+    }
+
+    .img-thumbnail{
+      min-width: 200px;
+      max-height: 150px;
+      margin-top: 20%;
+       margin-bottom: 50px;
+
+       padding: 0px;
+
     }
