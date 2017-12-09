@@ -1,7 +1,7 @@
 
 
 #experience{
-  min-height: 40vw;
+  min-height: 30vw;
   color:gray;
    background-image: url("../img/background/2.jpg");
    background-position: fixed;
@@ -55,11 +55,11 @@
     }
 
     .img-thumbnail{
-      min-width: 200px;
-      max-height: 150px;
-      margin-top: 20%;
-       margin-bottom: 50px;
 
+      margin-top:50%;
+      margin-bottom:50%;
+      margin-left:25%;
+      margin-right:25%;
        padding: 0px;
 
     }
