@@ -2577,13 +2577,13 @@
 }
 .hvr-shadow-radial:before {
   bottom: 100%;
-  background: -webkit-radial-gradient(50% 150%, ellipse, rgba(0, 0, 0, 0.6) 0%, transparent 80%);
-  background: radial-gradient(ellipse at 50% 150%, rgba(0, 0, 0, 0.6) 0%, transparent 80%);
+  background: -webkit-radial-gradient(50% 150%, ellipse, rgba(0, 0, 0, 1) 0%, transparent 80%);
+  background: radial-gradient(ellipse at 50% 150%, rgba(0, 0, 0, 1) 0%, transparent 80%);
 }
 .hvr-shadow-radial:after {
   top: 100%;
-  background: -webkit-radial-gradient(50% -50%, ellipse, rgba(0, 0, 0, 0.6) 0%, transparent 80%);
-  background: radial-gradient(ellipse at 50% -50%, rgba(0, 0, 0, 0.6) 0%, transparent 80%);
+  background: -webkit-radial-gradient(50% -50%, ellipse, rgba(0, 0, 0, 1) 0%, transparent 80%);
+  background: radial-gradient(ellipse at 50% -50%, rgba(0, 0, 0, 1) 0%, transparent 80%);
 }
 .hvr-shadow-radial:hover:before, .hvr-shadow-radial:focus:before, .hvr-shadow-radial:active:before, .hvr-shadow-radial:hover:after, .hvr-shadow-radial:focus:after, .hvr-shadow-radial:active:after {
   opacity: 1;

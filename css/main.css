@@ -2,7 +2,6 @@
 
 
 
-
    .hideme {
 
 
@@ -18,14 +17,13 @@
   padding:0;
 
 }
-.img-circle{
-  padding-top: 10px;
-  margin-left: 35px;
-  padding-left:0px;
-  max-width: 50px;
-  min-width: 10px;
-  max-height:50px;
-  min-height:10px;
+.icon{
+  width: 50px;
+  background-color:rgba(0,0,0,0);
+  margin-bottom: 20px;
+
+
+
 
 }
 /*.navbar-custom .navbar-brand {
@@ -93,7 +91,7 @@ h1 {
   font-size: 5.9vw;
 }
 h2 {
-  font-size: 3.0vh;
+  font-size: 4.0vh;
 }
 p {
   font-size: 2vmin;
