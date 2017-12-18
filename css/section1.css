@@ -100,10 +100,7 @@ bottom: 0;
   background-size: cover;
    margin: 10px;
    max-height: 50px;
-  -webkit-margin-before: 1em;
-  -webkit-margin-after: 1em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
+ 
   background-repeat: no-repeat;
 
    background-origin: content-box;
