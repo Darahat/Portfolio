@@ -17,13 +17,13 @@ $('.panel').hover(function(){
 $(function() {
 
 
-  function loop(){
-   $('.icon')
-     .animate({marginTop:15},1000)
-     .animate({marginTop:2},1000, loop);
-  }
-
-  loop(); // call this wherever you want
+  // function loop(){
+  //  $('.icon')
+  //    .animate({marginTop:15},1000)
+  //    .animate({marginTop:2},1000, loop);
+  // }
+  //
+  // loop(); // call this wherever you want
 
   $('.icon').hover(
    function() {
